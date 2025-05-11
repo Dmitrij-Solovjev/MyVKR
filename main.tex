@@ -87,6 +87,11 @@ With the increasing number of Internet of Things (IoT) devices in home automatio
 
 \newpage
 
+\tableofcontents
+
+\newpage
+
+
 \section{Введение}
 
 \subsection{Актуальность темы}
@@ -106,6 +111,16 @@ With the increasing number of Internet of Things (IoT) devices in home automatio
 
 \subsection{Цель работы}
 Целью работы является исследование систем представленных на рынке, изучение имеющихся протоколов, выбор оптимального, разработка прототипа системы.
+
+\subsection{Постановка задачи}
+После анализа существующих решений и выявления недостатков СДА, присутствующих на рынке, были сформулированы начальные
+условия (требования).
+
+\begin{enumerate}
+    \item Использование одноуровневой сети для связи устройств в рамках единой зоны.
+    \item Взаимодействие устройств осуществляется напрямую, без посредников в виде ЦУД.
+    \item Взаимодействие устройств из разных зон обеспечивается благодаря шлюзам-ретрансляторам, обединенными в единую сеть.
+\end{enumerate}
 
 \subsection{Научная новизна и практическая значимость}
 Уменьшение задержек, расширение сфер применения: в предлагаемой системе уменьшается количество узлов между устройством, порождающим событие, и устройством исполнителем (при нахождении в одной сети - до нуля), за счет чего увеличивается скорость выполнения команд и повышается общая отзывчивость системы, что расширяет сферы применения устройств ИВ для построения СДА, ранее нефункциональных ввиду относительно больших задержек.
@@ -274,16 +289,6 @@ ESP32-H2 оснащены аппаратным радио IEEE 802.15.4 (Zigbee/
 
 \section{Глава 2}
 
-\subsection{Постановка задачи}
-После анализа существующих решений и выявления недостатков СДА, присутствующих на рынке, были сформулированы начальные
-условия (требования).
-
-\begin{enumerate}
-    \item Использование одноуровневой сети для связи устройств в рамках единой зоны.
-    \item Взаимодействие устройств осуществляется напрямую, без посредников в виде ЦУД.
-    \item Взаимодействие устройств из разных зон обеспечивается благодаря шлюзам-ретрансляторам, обединенными в единую сеть.
-\end{enumerate}
-
 \subsection{Краткое описание предлагаемой системы}
 Централизованные СДА, имеющие ЦУД, обладая несомненными преимуществами, такими как простота настройки и реализации,
 также имеют ряд недостатков: низкая скорость реакции, невысокая надежность и безопасность, сильно зависящая от ЦУД
@@ -335,7 +340,7 @@ K, перестанут обрабатываться межзонные собы
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.6\textwidth]{images/Fig08.png}
-    \caption{Пример реализации конечного устройства}
+    \caption{Отличие observer от Publisher-Subscriber \cite{IMG_observer_vs_pub_sub}}
     \label{fig:Observer_vs_pub_sub}
 \end{figure}
 
@@ -382,7 +387,7 @@ K, перестанут обрабатываться межзонные собы
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{images/Fig11.png}
-    \caption{Пример реализации конечного устройства}
+    \caption{Графическое приложение с созданным внутри сценарием для конечных устройств}
     \label{fig:GUI_base}
 \end{figure}
 
@@ -391,7 +396,7 @@ K, перестанут обрабатываться межзонные собы
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{images/Fig12.png}
-    \caption{Пример реализации конечного устройства}
+    \caption{Пример более сложного сценария взаимодействия устройств}
     \label{fig:GUI_adv}
 \end{figure}
 
@@ -462,7 +467,9 @@ K, перестанут обрабатываться межзонные собы
 \bibitem{BLE_mesh_spec} Specifications and Documents Mesh Protocol [Электронный ресурс]: \url{URL: https://www.bluetooth.com/specifications/specs/html/?src=MshPRT_v1.1/out/en/index-en.html} (дата обращения: 11.05.2025).
 \bibitem{IMG_protocol_compare} Сравнительный анализ стандартов связи для сетей IoT [Электронный ресурс]: \url{URL: https://habr.com/ru/companies/msw/articles/720518/} (дата обращения: 11.05.2025).
 
-\bibitem{IMG_protocol_compare_power_eff} Wi-Fi HaLow™ and LoRaWAN: How do the technologies compare? [Электронный ресурс]: \url{URL:https://dev.wi-fi.org/zh-hans/beacon/y-zachary-freeman/wi-fi-halow-and-lorawan-how-do-the-technologies-compare} (дата обращения: 11.05.2025).
+\bibitem{IMG_protocol_compare_power_eff} Wi-Fi HaLow™ and LoRaWAN: How do the technologies compare? [Электронный ресурс]: \url{URL: https://dev.wi-fi.org/zh-hans/beacon/y-zachary-freeman/wi-fi-halow-and-lorawan-how-do-the-technologies-compare} (дата обращения: 11.05.2025).
+
+\bibitem{IMG_observer_vs_pub_sub} Observer vs Pub-Sub [Электронный ресурс]: \url{URL: https://habr.com/ru/articles/270339/} (дата обращения: 11.05.2025).
 
 \end{thebibliography}
 
