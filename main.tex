@@ -24,58 +24,15 @@
 \usepackage{tabularx}
 \usepackage{enumitem}
 \usepackage{titlesec}
+\usepackage{appendix}
 
+\usepackage[nottoc,numbib]{tocbibind} % Пакет tocbibind добавляет в оглавление пункты, которые обычно туда не попадают: библиографию, список иллюстраций, список таблиц и т. д.
+ 
 
 \begin{document}
 
-\begin{titlepage}
-    \newpage
-    \begin{center}
-    {\bfseries Министерство образования и науки Российской Федерации \\
-    Санкт-Петербургский государственный университет\\
-    Факультет прикладной математики и процессов управления}
+\input{titlepage_example.tex}
 
-    \vspace{3em}
-    \end{center}
-    \vspace{1.2em}
-
-    \begin{center}
-    %\textsc{\textbf{}}
-    \textbf{\Large Научно исследовательская работа по теме:}\\
-    \Large{Система домашней автоматизации с использованием децентрализованного подхода в хранении и обработке данных.}
-    \end{center}
-    \vspace{7em}
-
-    \begin{tabular}{lcccc}
-        \multirow{2}{2cm}{Автор работы} & \hspace{3cm} & \underline{\hspace{3cm}} & \hspace{1cm} & \uline{\makebox[5cm]{Соловьев Д.Н.}}\\
-        \hspace{1cm} && \footnotesize{подпись} && \footnotesize{фамилия и инициалы} \\
-    \end{tabular}
-
-    \vspace{0.5cm}
-    \begin{tabular}{lcccc}
-        \multirow{2}{2cm}{Научный руководитель} & \hspace{3cm} & \underline{\hspace{3cm}} & \hspace{1cm} & \uline{\makebox[5cm]{Корхов В.В.}}\\
-        \hspace{1cm} && \footnotesize{подпись} && \footnotesize{фамилия и инициалы} \\
-    \end{tabular}
-
-    \vspace{0.5cm}
-    \begin{tabular}{lcccc}
-        \multirow{2}{2cm}{Председатель комиссии} & \hspace{3cm} & \underline{\hspace{3cm}} & \hspace{1cm} & \uline{\makebox[5cm]{}}\\
-        \hspace{1cm} && \footnotesize{подпись} && \footnotesize{фамилия и инициалы} \\
-    \end{tabular}
-
-    % \vspace{1.5cm}
-    % \begin{tabular}{lcccc}
-    %     \multirow{1}{2cm}{Оценка} & \hspace{3cm} & \underline{\hspace{3cm}} & \hspace{1cm} & \underline{\hspace{5cm}}\\
-    %     \hspace{1cm} && \footnotesize{Балл} && \footnotesize{Дата} \\
-    % \end{tabular}
-
-    \vspace{\fill}
-
-    \begin{center}
-    Санкт-Петербург\\ 2025
-    \end{center}
-
-\end{titlepage}
 
 \section*{Аннотация}
 
@@ -373,7 +330,7 @@ K, перестанут обрабатываться межзонные собы
     \centering
     \includegraphics[width=0.8\textwidth]{images/Fig09.png}
     \caption{Пример взаимодействий конечных устройств}
-    \label{fig:Observer_vs_pub_sub}
+    \label{fig:Connect_end_device_example}
 \end{figure}
 
 
@@ -472,6 +429,26 @@ K, перестанут обрабатываться межзонные собы
 \bibitem{IMG_observer_vs_pub_sub} Observer vs Pub-Sub [Электронный ресурс]: \url{URL: https://habr.com/ru/articles/270339/} (дата обращения: 11.05.2025).
 
 \end{thebibliography}
+
+\newpage
+\appendix
+\renewcommand{\thesection}{\Alph{section}} % Нумерация буквами A, B, C…
+
+% Заголовок первого приложения
+\section*{Приложение A. Исходные коды и дополнительные материалы}
+\addcontentsline{toc}{section}{Приложение A. Исходные коды и дополнительные материалы}
+
+\begin{enumerate}[label=\arabic*.]
+  \item Solovjev D. Distributed smart home cluster  [Электронный ресурс]: 
+        \url{URL: https://github.com/Dmitrij-Solovjev/distributed-smart-home-cluster}
+        (дата обращения: 11.05.2025). \\
+        \emph{Примечание:} Кластер на базе K0s с сервисами для ретрансляции сообщений и общей настройки системы.
+        
+  \item Solovjev D. IoT Base Device [Электронный ресурс]: 
+        \url{URL: https://github.com/Dmitrij-Solovjev/IoT-Base-Device} 
+        (дата обращения: 11.05.2025). \\
+        \emph{Примечание:} Прошивка для микроконтроллера на FreeRTOS, реализующая логику домашней автоматизации.
+\end{enumerate}
 
 
 \end{document}
