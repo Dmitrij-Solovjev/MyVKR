@@ -16,20 +16,23 @@
 \contentsline {paragraph}{Основные элементы архитектуры и топологии}{8}{figure.caption.3}%
 \contentsline {paragraph}{Преимущества и недостатки:}{9}{figure.caption.3}%
 \contentsline {subsubsection}{\numberline {2.2.2}Bluetooth Low Energy (BLE) и Bluetooth Mesh}{9}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Zigbee}{9}{subsubsection.2.2.3}%
+\contentsline {paragraph}{Роли устройств}{9}{subsubsection.2.2.2}%
+\contentsline {paragraph}{Применимость в системах автоматизации и IoT.}{9}{subsubsection.2.2.2}%
+\contentsline {paragraph}{BLE Mesh.}{10}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Zigbee}{10}{subsubsection.2.2.3}%
 \contentsline {subsubsection}{\numberline {2.2.4}Сравнение представленных протоколов}{10}{subsubsection.2.2.4}%
 \contentsline {subsubsection}{\numberline {2.2.5}Доступность для разработчиков платформ, поддерживающих представленные протоколы}{11}{subsubsection.2.2.5}%
 \contentsline {section}{\numberline {3}Глава 2}{12}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Краткое описание предлагаемой системы}{12}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Выбранная топология системы}{14}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Взаимодействие устройств}{14}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Взаимодействие устройств}{15}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Добавление устройств и настройка сценариев}{15}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Обработка событий}{15}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Глава 3}{16}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Графический интерфейс}{16}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Планировщик}{17}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Глава 4}{18}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Тестирование и полученные оценки}{18}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Вывод}{18}{subsection.5.2}%
-\contentsline {section}{\numberline {6}{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{19}{section.6}%
-\contentsline {section}{Приложение A. Исходные коды и дополнительные материалы}{20}{section.6}%
+\contentsline {subsection}{\numberline {3.5}Обработка событий}{16}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Глава 3}{17}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Графический интерфейс}{17}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Планировщик}{18}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Глава 4}{19}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Тестирование и полученные оценки}{19}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Вывод}{19}{subsection.5.2}%
+\contentsline {section}{\numberline {6}{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{20}{section.6}%
+\contentsline {section}{Приложение A. Исходные коды и дополнительные материалы}{21}{section.6}%
