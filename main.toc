@@ -4,6 +4,7 @@
 \contentsline {subsection}{\numberline {1.2}Объект исследования}{4}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Предмет исследования}{4}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Постановка задачи}{4}{subsection.1.4}%
+\contentsline {paragraph}{Практическая значимость предлагаемого подхода:}{4}{section*.4}%
 \contentsline {section}{\numberline {2}Глава 1}{6}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Топологии беспроводных сетей}{6}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Топология точка-точка}{6}{subsubsection.2.1.1}%
@@ -12,27 +13,33 @@
 \contentsline {subsubsection}{\numberline {2.1.4}Топология «кластерное дерево»}{7}{subsubsection.2.1.4}%
 \contentsline {subsection}{\numberline {2.2}Протоколы беспроводных сетей}{7}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Wi-Fi и Wi-Fi HaLow}{8}{subsubsection.2.2.1}%
-\contentsline {paragraph}{IEEE 802.11ah (Wi-Fi HaLow)}{8}{subsubsection.2.2.1}%
-\contentsline {paragraph}{Основные элементы архитектуры и топологии}{8}{figure.caption.3}%
-\contentsline {paragraph}{Преимущества и недостатки:}{9}{figure.caption.3}%
+\contentsline {paragraph}{IEEE 802.11ah (Wi-Fi HaLow)}{8}{section*.7}%
+\contentsline {paragraph}{Основные элементы архитектуры и топологии}{8}{section*.9}%
+\contentsline {paragraph}{Преимущества и недостатки:}{9}{section*.10}%
 \contentsline {subsubsection}{\numberline {2.2.2}Bluetooth Low Energy (BLE) и Bluetooth Mesh}{9}{subsubsection.2.2.2}%
-\contentsline {paragraph}{Роли устройств}{9}{subsubsection.2.2.2}%
-\contentsline {paragraph}{Применимость в системах автоматизации и IoT.}{9}{subsubsection.2.2.2}%
-\contentsline {paragraph}{BLE Mesh.}{10}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Zigbee}{10}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Сравнение представленных протоколов}{10}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}Доступность для разработчиков платформ, поддерживающих представленные протоколы}{11}{subsubsection.2.2.5}%
-\contentsline {section}{\numberline {3}Глава 2}{12}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Краткое описание предлагаемой системы}{12}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Выбранная топология системы}{14}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Взаимодействие устройств}{15}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Добавление устройств и настройка сценариев}{15}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Обработка событий}{16}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Глава 3}{17}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Графический интерфейс}{17}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Планировщик}{18}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Глава 4}{19}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Тестирование и полученные оценки}{19}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Вывод}{19}{subsection.5.2}%
-\contentsline {section}{\numberline {6}{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{20}{section.6}%
-\contentsline {section}{Приложение A. Исходные коды и дополнительные материалы}{21}{section.6}%
+\contentsline {paragraph}{Роли устройств}{9}{section*.11}%
+\contentsline {paragraph}{Применимость в системах автоматизации и IoT.}{10}{section*.13}%
+\contentsline {paragraph}{BLE Mesh.}{10}{section*.14}%
+\contentsline {subsubsection}{\numberline {2.2.3}Zigbee и Zigbee Pro}{10}{subsubsection.2.2.3}%
+\contentsline {paragraph}{Основные элементы архитектуры и топологии}{11}{section*.15}%
+\contentsline {paragraph}{Обнаружение маршрута}{11}{section*.16}%
+\contentsline {paragraph}{Передача и ретрансляция}{12}{section*.17}%
+\contentsline {paragraph}{Шаблоны устройств (Application Profiles)}{12}{section*.18}%
+\contentsline {paragraph}{Влияние отказов}{12}{section*.20}%
+\contentsline {paragraph}{Zigbee Pro.}{13}{section*.21}%
+\contentsline {subsubsection}{\numberline {2.2.4}Сравнение представленных протоколов}{13}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Доступность для разработчиков платформ, поддерживающих представленные протоколы}{15}{subsubsection.2.2.5}%
+\contentsline {section}{\numberline {3}Глава 2}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Описание системы}{16}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Выбранная топология системы}{18}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Взаимодействие устройств}{18}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Добавление устройств и настройка сценариев}{19}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Обработка событий}{19}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Глава 3}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Графический интерфейс}{20}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Планировщик}{21}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Глава 4}{22}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Тестирование и полученные оценки}{22}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Вывод}{22}{subsection.5.2}%
+\contentsline {section}{\numberline {6}{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{23}{section.6}%
+\contentsline {section}{Приложение A. Исходные коды и дополнительные материалы}{25}{section*.32}%
