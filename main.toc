@@ -64,4 +64,4 @@
 \contentsline {section}{\numberline {7.1}Тестирование и полученные оценки}{38}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Вывод}{39}{section.7.2}%
 \contentsline {chapter}{\numberline {8}Литература}{40}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Приложение}{43}{appendix.A}%
+\contentsline {chapter}{\numberline {9}Приложение}{43}{chapter.9}%
