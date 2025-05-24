@@ -66,11 +66,8 @@
 \contentsline {subsection}{\numberline {5.1.4}Сервисы.}{37}{subsection.5.1.4}%
 \contentsline {subsection}{\numberline {5.1.5}Автоматизация сборки и развертывания.}{38}{subsection.5.1.5}%
 \contentsline {subsection}{\numberline {5.1.6}Этапы выполнения работ.}{38}{subsection.5.1.6}%
-\contentsline {chapter}{\numberline {6}Глава 5}{42}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Графический интерфейс}{42}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Планировщик}{42}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Глава 6}{44}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Тестирование и полученные оценки}{44}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Вывод}{45}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Литература}{46}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Приложение}{49}{chapter.9}%
+\contentsline {chapter}{\numberline {6}Глава 6}{41}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Тестирование и полученные оценки}{41}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Вывод}{42}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Литература}{43}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Приложение}{46}{chapter.8}%
